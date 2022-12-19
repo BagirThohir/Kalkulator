@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input Angka Pertama..."
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/et_angka1"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input Angka Kedua..."
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/et_angka2"
+        android:inputType="number"
+        />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/sp_operator"
+        android:entries="@array/sp_operator"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="30dp"
+        android:text="Hitung"
+        android:id="@+id/btn_hitung"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/tv_hasil"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:textSize="20pt"
+        android:textColor="@color/cardview_dark_background"
+
+        />
+</LinearLayout>
