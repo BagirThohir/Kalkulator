@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
                 return@setOnClickListener
             }
 
+
             val nilai_angka1 = et_angka1.text.toString().toInt()
             val nilai_angka2 = et_angka2.text.toString().toInt()
 
